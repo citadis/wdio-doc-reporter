@@ -1,6 +1,6 @@
 {
   "name": "wdio-doc-reporter",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Doc Reporter for WDIO",
   "main": "build/reporter.js",
   "scripts": {
