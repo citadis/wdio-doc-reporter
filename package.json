@@ -1,0 +1,22 @@
+{
+  "name": "doc-reporter",
+  "version": "1.0.0",
+  "description": "Doc Reporter for WDIO",
+  "main": "doc-reporter.js",
+  "scripts": {
+    "test": "node doc-reporter.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/citadis/wdio-doc-reporter"
+  },
+  "keywords": [
+    "webdriverio"
+  ],
+  "author": "Russell Clarke",
+  "license": "MIT",
+  "dependencies": {
+    "mkdirp": "^0.5.1",
+    "webdriverio": "^4.6.2"
+  }
+}
