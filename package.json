@@ -1,8 +1,8 @@
 {
-  "name": "doc-reporter",
-  "version": "1.0.0",
+  "name": "wdio-doc-reporter",
+  "version": "1.0.1",
   "description": "Doc Reporter for WDIO",
-  "main": "build/doc-reporter.js",
+  "main": "build/reporter.js",
   "scripts": {
     "build": "grunt build",
     "prepublish": "npm prune && npm run build",

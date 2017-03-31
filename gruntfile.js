@@ -36,7 +36,7 @@ module.exports = function (grunt) {
             options: {
                 parser: 'babel-eslint'
             },
-            target: ['lib/doc-reporter.js']
+            target: ['lib/reporter.js']
         },
         contributors: {
             options: {
@@ -59,7 +59,7 @@ module.exports = function (grunt) {
 
     require('load-grunt-tasks')(grunt)
     grunt.registerTask('default', ['eslint', 'build', 'mocha_istanbul'])
-    grunt.registerTask('build', 'Build doc-reporter', function () {
+    grunt.registerTask('build', 'Build wdio-doc-reporter', function () {
         grunt.task.run([
             'clean',
             'babel'
